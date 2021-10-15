@@ -1,0 +1,155 @@
+
+.side-menu{
+  height: 80%;
+  width: 15%;
+  font-size: 18px;
+  float: left;
+  z-index: 2;
+  background-color: #ddd;
+}
+.side-menu ul{
+  margin-left: 20px;
+  height: 434px;
+}
+.side-menu ul li{
+  list-style-type: none;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.side-menu ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  transition: 0.6s ease;
+}
+.side-menu ul li a:hover{
+  color: blue;
+}
+.side-menu ul li ul{
+  display: none;
+  z-index: 10;
+  top:77px;
+}
+.side-menu ul li:hover ul{
+  display: block;
+  height: 400px;
+  margin-left: 12%;
+  padding: 0 50px 10px 8px;
+  position: fixed;
+  background: #fff;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5)
+}
+.side-menu ul li:hover ul li:hover{
+	color: black;
+
+}
+
+.fa-angle-right{
+  margin-top: 4px;
+  margin-right: 8px;
+  float: right;
+}
+#menu-btn, #close-btn{
+  font-size: 30px;
+
+  margin:10px;
+  color: #000;
+  display: none;
+}
+.fa-bars{
+  font-size: 50px;
+}
+
+.fa-times{
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 980px)
+{
+  .top-nav-bar{
+    height: 150px;
+    border-bottom: 0;
+  }
+  .search-box
+  {
+    width: 100%
+
+  }
+  .menu-bar{
+    width:100%;
+
+  }
+  .menu-bar ul{
+    margin: 10px 0;
+    width: 100%;
+  }
+  .menu-bar ul li{
+    height: 57px;
+    width:100%;
+  }
+
+}
+@media only screen and (max-width: 980px)
+{
+  .side-menu{
+    width: 34%;
+    z-index: 20;
+    top: 133px;
+    position: fixed;
+    font-size: 12px;
+    display: none;
+  }
+  .side-menu ul li ul{
+    top: 133px;
+  }
+  .side-menu ul li:hover ul{
+    margin-left: 31%;
+  }
+  #menu-btn{
+  	display: block;
+  }
+}
+.section-padding {
+  padding: 60px 0px;
+}
+h2 a{
+  padding: 18px;
+  color: #000;
+  font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+h2 a:hover{
+  color: blue;  
+}
+.product-top img{
+  width: 100%;
+  padding: 10px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.product-top img:hover{
+  transform: scale(1.1);
+}
+.product-bottom h3{
+  color:#000;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.product-bottom h5{
+  color: #000;
+  font-size: 15px;
+  padding: 10px;
+}
+#footer {
+  background-color: #191919;
+  padding: 20px 0px;
+}
+.footer-copyright {
+  color: #fff;
+  line-height: 32px;
+  text-align: left;
+}

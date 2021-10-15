@@ -1,0 +1,85 @@
+.load{
+     background-image:url(../img/images.jpg);
+}
+.form {
+  background: #f0f0f0;
+  padding: 40px;
+  max-width: 600px;
+  margin: 1px auto;
+}
+.tab-group {
+  list-style: none;
+  padding: 20px;
+  margin: 0 0 40px 0;
+}
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background:#708090;
+  color: #000;
+  font-size: 20px;
+  float: left;
+  width:50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  background: #000;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: #000;
+  color: #ffffff;
+}
+.form-group {
+  margin-bottom: 32px;
+  position: relative;
+  padding-top: 10px; 
+}
+label{
+  text-align: center;
+  color: #000;
+  font-size:24px; 
+  font-weight: bold;
+  margin: 0 0 40px;
+}
+.form-group input[type="text"], input[type="password"],input[type="email"]
+{
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  font-size: 22px;
+  color:#000;
+  width: 100%;
+}
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #000;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button-block {
+  display: block;
+  width: 100%;
+}
+.photo 
+{
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  background: #f4f4f4;
+  outline: none;
+  height: 250px;
+  width: 100%;
+}
